@@ -1,0 +1,10 @@
+# ninja log v5
+6	454	1667094813141385865	CMakeFiles/codes.dir/articulation_points_or_cut_vertices_in_graph.cpp.o	22293259d1be1456
+468	500	1667094813188267710	codes	831634c4bd7a0098
+5	313	1667094812998930122	CMakeFiles/codes.dir/biconnected_graph.cpp.o	fb90779f57cd2f6b
+5	452	1667094813138226659	CMakeFiles/codes.dir/detect_cycle_dfs.cpp.o	6a9d517211c0ad6
+6	323	1667094813009148699	CMakeFiles/codes.dir/biconnected_components.cpp.o	152a3b730490a2b0
+5	468	1667094813154987315	CMakeFiles/codes.dir/detect_cycle_dfs_2.cpp.o	63b27b9b71e74829
+5	339	1667094813025139855	CMakeFiles/codes.dir/topological_sorting.cpp.o	513eaeb84f987e69
+0	51	1668067062575841716	build.ninja	eeb2d4df18bcb8bc
+5	34	1667094812720084799	CMakeFiles/codes.dir/kosaraju_scc_dfs.cpp.o	7ae8b92434561362
