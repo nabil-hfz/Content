@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/nabil.alhafez/Univeristetea/Anul_2/prog_fund/tema1 -B /Users/nabil.alhafez/Univeristetea/Anul_2/prog_fund/tema1/cmake-build-debug
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/nabil.alhafez/Univeristetea/Anul_2/prog_fund/tema1 -blocuri /Users/nabil.alhafez/Univeristetea/Anul_2/prog_fund/tema1/cmake-build-debug
 CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake:303 (message):
   Ignoring CMAKE_OSX_SYSROOT value:
 
