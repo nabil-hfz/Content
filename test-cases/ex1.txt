@@ -1,0 +1,46 @@
+// TEST
+start
+5 5
+0 1
+1 2
+2 3
+3 4
+4 0
+end
+
+// WEIGHTED_DIRECTED
+start
+0 1 2
+0 2 3
+1 2 4
+2 3 5
+3 4 6
+end
+
+// WEIGHTED_UNDIRECTED
+start
+5 4
+0 1 2
+1 2 3
+2 3 4
+3 4 5
+end
+
+// UNWEIGHTED_DIRECTED
+start
+5 4
+0 1
+1 2
+2 3
+3 4
+end
+
+// UNWEIGHTED_UNDIRECTED
+start
+5 5
+0 1
+1 2
+2 3
+3 4
+4 0
+end

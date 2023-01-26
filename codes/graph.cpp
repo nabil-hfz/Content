@@ -63,7 +63,6 @@ public:
                     if (line.find("start") != string::npos) {
                         if (type == WEIGHTED_DIRECTED || type == WEIGHTED_UNDIRECTED) {
                             while (getline(input_stream, line)) {
-                                cout << "1 temp " << line << endl;
                                 if (line.find("end") != string::npos) {
                                     isDone = true;
                                     break;
@@ -73,7 +72,6 @@ public:
 
                         } else {
                             while (getline(input_stream, line)) {
-                                cout << "2 temp " << line << endl;
                                 if (line.find("end") != string::npos) {
                                     isDone = true;
                                     break;
@@ -94,7 +92,9 @@ public:
     void printGraph() {
         if (type == WEIGHTED_DIRECTED || type == WEIGHTED_UNDIRECTED) {
             for (int i = 0; i < V; i++) {
+
                 cout << i << ": ";
+                if(adj[i].empty())   cout << "No edges";
                 for (auto edge: adj[i]) {
                     cout << edge.first << "(" << edge.second << ") ";
                 }
@@ -103,6 +103,7 @@ public:
         } else {
             for (int i = 0; i < V; i++) {
                 cout << i << ": ";
+                if(adj[i].empty())   cout << "No edges";
                 for (auto neighbor: adj_unw[i]) {
                     cout << neighbor << " ";
                 }
@@ -116,11 +117,11 @@ public:
     }
 };
 
-int main() {
-    Graph g(5, 4, WEIGHTED_DIRECTED);
-    string fileName = "/Users/nabil.alhafez/Univeristetea/Anul_2/algo_fund/Content/test-cases/edges.txt";
-    g.readFromFile(fileName);
-    g.printGraph();
-
-    return 0;
-}
+//int main() {
+//    Graph g(5, 4, WEIGHTED_DIRECTED);
+//    string fileName = "/Users/nabil.alhafez/Univeristetea/Anul_2/algo_fund/Content/test-cases/edges.txt";
+//    g.readFromFile(fileName);
+//    g.printGraph();
+//
+//    return 0;
+//}

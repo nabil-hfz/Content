@@ -1,5 +1,8 @@
-#include <bits/stdc++.h>
-
+//#include <bits/stdc++.h>
+#include <iostream>
+#include <fstream>
+#include <algorithm>
+#include <vector>
 using namespace std;
 
 int n;

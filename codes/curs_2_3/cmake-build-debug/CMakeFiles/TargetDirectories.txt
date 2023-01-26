@@ -1,3 +1,0 @@
-/Users/nabil.alhafez/Univeristetea/Anul_2/prog_fund/codes/curs_2_3/cmake-build-debug/CMakeFiles/codes.dir
-/Users/nabil.alhafez/Univeristetea/Anul_2/prog_fund/codes/curs_2_3/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/nabil.alhafez/Univeristetea/Anul_2/prog_fund/codes/curs_2_3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
